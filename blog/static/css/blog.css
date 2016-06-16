@@ -34,11 +34,23 @@ h1, h2, h3, h4 {
 	margin-top: 5px;
 }
 
+.publish {
+	height: 32px;
+	float: right;
+	margin-right: 3px;
+}
+.remove {
+	margin-left: 3px;
+	height: 32px;
+	float: right;
+}
+
 .save {
     float: right;
 }
 
 .edit{
+	height: 32px;
 	float: right;
 }
 

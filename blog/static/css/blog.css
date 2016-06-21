@@ -7,6 +7,7 @@ body {
     padding-left: 15px;
 	padding-right: 15px;
 }
+
 .page-header {
     background-color: #B8D6BE;
     margin-top: 0;
@@ -17,6 +18,17 @@ body {
     color: #ffffff;
     font-size: 36pt;
     text-decoration: none;
+}
+
+.header {
+	width: auto;
+    height: 40px;
+    padding: 10px 40px;
+    background: #417690;
+    line-height: 40px;
+    color: #ffc;
+    overflow: hidden;
+	font-size: 16pt;
 }
 
 .content {
@@ -83,4 +95,13 @@ p {
 
 .comment {
     margin: 20px 0px 20px 20px;
+}
+
+.btn {
+	background: #79aec8;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
 }

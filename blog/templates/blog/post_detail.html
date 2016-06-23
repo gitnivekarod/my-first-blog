@@ -14,7 +14,7 @@
 		<a class="publish btn btn-default" href="{% url 'blog.views.post_publish' pk=post.pk %}">Publish</a>
         {% endif %}
         <h1>{{ post.title }}</h1>
-        <p>{{ post.text|linebreaks }}</p>
+        <p class="bg-success">{{ post.text|linebreaks }}</p>
     </div>
 	<hr>
 	<a class="btn btn-primary" href="{% url 'add_comment_to_post' pk=post.pk %}">Add comment</a>
